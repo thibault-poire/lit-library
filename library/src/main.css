@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap");
+
+:root {
+
+  /* GLOBAL TOKENS */
+  --lib-primary: #ffffff;
+  --lib-secondary: #000000;
+
+  --lib-font-family-primary: "Silkscreen", sans-serif;
+  --lib-font-size-medium: 16px;
+  --lib-font-weight-bold: 700;
+  --lib-font-weight-normal: 400;
+
+  --lib-spacing-small: 8px;
+  --lib-spacing-medium: 16px;
+  --lib-spacing-large: 24px;
+
+  --lib-border-width-small: 2px;
+  --lib-border-width-medium: 4px;
+  --lib-border-radius-small: 0;
+
+  --lib-opacity-disabled: 0.5;
+
+  /* SEMANTIC TOKENS */
+  --lib-background-primary: var(--lib-primary);
+  --lib-background-secondary: var(--lib-secondary);
+  --lib-text-on-primary: var(--lib-secondary);
+  --lib-text-on-secondary: var(--lib-primary);
+  --lib-border-color-primary: var(--lib-secondary);
+}

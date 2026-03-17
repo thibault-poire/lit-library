@@ -1,0 +1,18 @@
+:root {
+  --modal-background-primary: var(--lib-background-primary);
+  --modal-text-on-primary: var(--lib-text-on-primary);
+  --modal-border-color-primary: var(--lib-border-color-primary);
+
+  --modal-title-font-family: var(--lib-font-family-primary);
+  --modal-title-font-weight: var(--lib-font-weight-bold);
+  --modal-title-font-size: var(--lib-font-size-medium);
+  --modal-content-font-family: var(--lib-font-family-primary);
+  --modal-content-font-weight: var(--lib-font-weight-normal);
+  --modal-content-font-size: var(--lib-font-size-medium);
+
+  --modal-max-width: 500px;
+  --modal-padding-block: var(--lib-spacing-large);
+  --modal-padding-inline: var(--lib-spacing-large);
+
+  --modal-border-width: var(--lib-border-width-medium);
+}

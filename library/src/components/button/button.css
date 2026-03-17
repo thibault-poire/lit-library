@@ -1,0 +1,24 @@
+:root {
+  --button-background-primary: var(--lib-background-primary);
+  --button-text-on-primary: var(--lib-text-on-primary);
+  --button-background-secondary: var(--lib-background-secondary);
+  --button-text-on-secondary: var(--lib-text-on-secondary);
+
+  --button-hover-background-primary: var(--lib-background-secondary);
+  --button-hover-text-on-primary: var(--lib-text-on-secondary);
+  --button-hover-background-secondary: var(--lib-background-primary);
+  --button-hover-text-on-secondary: var(--lib-text-on-primary);
+
+  --button-opacity-disabled: var(--lib-opacity-disabled);
+
+  --button-font-family: var(--lib-font-family-primary);
+  --button-font-weight: var(--lib-font-weight-bold);
+  --button-font-size: var(--lib-font-size-medium);
+
+  --button-padding-block: var(--lib-spacing-small);
+  --button-padding-inline: var(--lib-spacing-small);
+
+  --button-border-radius: var(--lib-border-radius-small);
+  --button-border-width: var(--lib-border-width-small);
+  --button-border-color-primary: var(--lib-border-color-primary);
+}

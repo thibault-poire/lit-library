@@ -1,11 +1,12 @@
 import type { Preview } from '@storybook/web-components-vite'
+import { useArgs } from 'storybook/internal/preview-api';
 
 const preview: Preview = {
   parameters: {
     controls: {
       matchers: {
-       color: /(background|color)$/i,
-       date: /Date$/i,
+        color: /(background|color)$/i,
+        date: /Date$/i,
       },
     },
 
@@ -16,6 +17,13 @@ const preview: Preview = {
       test: 'todo'
     }
   },
+
+  decorators: [
+    (story, context) => {
+      const [_, updateArgs] = useArgs();
+      return story({ ...context, updateArgs });
+    },
+  ],
 };
 
 export default preview;
